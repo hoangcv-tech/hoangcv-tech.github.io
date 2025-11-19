@@ -1,10 +1,39 @@
 {
   "applinks": {
+    "apps": [],
     "details": [
       {
-        "appID": "4J8WSCVQ98.com.vtn.aichatting.aichatbot.funnychat",
-        "paths": ["*"]
+        "appIDs": [
+          "4J8WSCVQ98.com.vtn.aichatting.aichatbot.funnychat"
+        ],
+        "paths": [
+          "*"
+        ],
+        "components": [
+          {
+            "/": "/*"
+          }
+        ]
+      },
+      {
+        "appIDs": [
+          "4J8WSCVQ98.com.vtn.global.app530.aichatbot"
+        ],
+        "paths": [
+          "*"
+        ],
+        "components": [
+          {
+            "/": "/*"
+          }
+        ]
       }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "4J8WSCVQ98.com.vtn.aichatting.aichatbot.funnychat",
+      "4J8WSCVQ98.com.vtn.global.app530.aichatbot"
     ]
   }
 }
